@@ -10,7 +10,10 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+
 </head>
 
 <body>
@@ -97,7 +100,7 @@
                     <h5>Our Services</h5>
                     <h2>How does it work?</h2>
                 </div>
-                
+
                 <div class="flex text-center mt-4 gap-4">
                     <div class="service-card">
                         <div class="image-container">
@@ -124,6 +127,119 @@
             </div>
         </section>
 
+        <section>
+            <div class="wrapper p-top">
+                <div class="text-center">
+                    <h5>Our Menu</h5>
+                    <h2>The most popular</h2>
+                </div>
+
+                <div class="card-list text-center flex mt-4 gap-2">
+                    <!-- <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/burger.png">
+                        </div>
+                        <h4>Double Beef Burger</h4>
+                        <h4 class="price">$200</h4>
+                        <a href="#" class="btn">Add to cart</a>
+                    </div> -->
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper p-top flex gap-3">
+                <div class="image-container">
+                    <img src="images/delivery-boy-with-phone.png">
+                </div>
+
+                <div class="content">
+                    <h5>Our reviews</h5>
+                    <h2>What they say?</h2>
+
+                    <div class="review-container">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper mt-4">
+                                <div class="swiper-slide">
+                                    <div class="flex gap-2">
+                                        <div class="profile">
+                                            <img src="images/profile1.jpeg" alt="">
+                                        </div>
+                                        <div>
+                                            <h4>Guido Benito</h4>
+                                            <div class="mt-half">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="para">
+                                        Foodie is the best. Besides the many delicious dishes, the delivery is also fast
+                                        and the quality is also very good. I highly recommend Foodie to you.
+                                    </p>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="flex gap-2">
+                                        <div class="profile">
+                                            <img src="images/profile2.jpeg" alt="">
+                                        </div>
+                                        <div>
+                                            <h4>Sophia Petrova</h4>
+                                            <div class="mt-half">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="para">
+                                        Fresh ingredients, creative menu, and warm service make Foodie a hidden gem.
+                                        Perfect for casual dining or a night out with friends. Truely a foodie's
+                                        paradise.
+                                    </p>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="flex gap-2">
+                                        <div class="profile">
+                                            <img src="images/profile3.jpeg" alt="">
+                                        </div>
+                                        <div>
+                                            <h4>Olivia Smith</h4>
+                                            <div class="mt-half">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="para">
+                                        Delicious dishes, cozy ambience, and friendly staff make Foodie a must-try for
+                                        any foodie. Whether you're in the mood for a quick bite or a full meal, Foodie
+                                        has it all.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex between mt-2">
+                                <a href="#" class="arrow" id="prev">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </a>
+                                <a href="#" class="arrow" id="next">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- Footer Part -->
@@ -131,6 +247,8 @@
 
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </body>
 
 </html>
