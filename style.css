@@ -75,8 +75,12 @@ img {
     margin-top: 4rem;
 }
 
-.mt-half{
+.mt-half {
     margin-top: 0.5rem;
+}
+
+.m-auto {
+    margin: auto;
 }
 
 
@@ -290,8 +294,56 @@ h4 {
     line-height: 2.5rem;
 }
 
+/* Section 04 */
+
+.app-container {
+    background: var(--hint-yellow);
+    padding: 3rem 6rem;
+    border-radius: 3rem;
+}
+
+.app-container .image-container img {
+    width: 25rem;
+    /* flex: 1; */
+    filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.2));
+}
+
+.app-container .content h2 {
+    font-size: 4.5rem;
+}
+
+/* Section 05 */
+
+.input-container {
+    width: 43rem;
+    max-width: 100%;
+    background-color: var(--pure-white);
+    padding: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 5px 8px;
+    border-radius: 1rem;
+    margin: 4rem auto 0 auto;
+}
+
+input[type="email"] {
+    flex: 1;
+    height: 7vh;
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    /* color: var(--lead); */
+    padding-left: 1rem;
+}
+
+input[type="email"]:focus {
+    outline: none;
+}
 
 /* footer styling */
+
+
+
+
+
 
 
 /* media queries */
@@ -358,6 +410,16 @@ h4 {
 
     /* section 01 */
     h2 {
+        font-size: 3rem;
+    }
+
+    /* section 04 */
+
+    .app-container {
+        padding: 2.2rem;
+    }
+
+    .app-container .content h2 {
         font-size: 3rem;
     }
 }
